@@ -22,7 +22,11 @@ aspectratio: 169
 section-titles: true
 theme: metropolis
 header-includes:
+ - \usepackage{fontspec}
+ - \setmainfont{FreeSerif}
+ - \setsansfont{FreeSans}
  - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
+ 
 ---
 
 # Информация
